@@ -1,0 +1,138 @@
+.paraCentrar{
+    display:flex;
+    justify-content:center;
+    padding-top:10px;
+}
+.crearPostContainer{
+    display:flex;
+    flex-direction:column;
+    border:groove;
+    border-radius:15px;
+    padding:10px;
+
+}
+.crearPostF1{
+    border-bottom:groove;
+    color:#831617;
+}
+.crearPostF2{
+    display:flex;
+    justify-content:space-between;
+    padding-top:10px;
+    padding-bottom:10px;
+    font-size:14px;
+}
+.inputTitulo{
+    display:flex;
+    width:100%;
+    justify-content:flex-end;
+}
+.inputTitulo>input{
+    width:90%;
+    border-radius:15px;
+}
+.crearPostF3{
+
+    font-size:14px;
+}
+.crearPostF4{
+    display:flex;
+    padding-top:2px;
+    padding-bottom:5px;
+}
+.crearPostF4>textarea{
+    width:98%;
+    border-radius:15px;
+    height:150px;
+}
+
+.crearPostF5{
+    display:flex;
+    justify-content:space-between;
+    border-top:groove;
+    border-bottom:groove;
+    padding-top:5px;
+    padding-bottom:5px;
+}
+.inputTags{
+    display:flex;
+}
+.inputTags>input{
+    width:100%;
+    border-radius:15px;
+}
+.creaTags{
+    display:flex;
+    flex-direction:column;
+    width:50%;
+    font-size:14px;
+}
+.crearPostF6{
+    display:flex;
+    justify-content:space-around;
+}
+.inputsAnadir{
+    font-family: 'Inter',sans-serif;
+    font-size:10px;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    width:32%;
+}
+.addImg{
+    background-color:#831617;
+    color:white;
+    border-radius:10px;
+    margin-top:2px;
+    margin-bottom:2px;
+    cursor:pointer;
+    text-align:center;
+}
+.addImg:hover{
+box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.addDoc{
+    background-color:#831617;
+    color:white;
+    border-radius:10px;
+    margin-top:2px;
+    margin-bottom:2px;
+    cursor:pointer;
+    text-align:center;
+}
+.addEsc{
+    background-color:#831617;
+    color:white;
+    border-radius:10px;
+    margin-top:2px;
+    margin-bottom:2px;
+    cursor:pointer;
+    text-align:center;
+
+}
+.subirCrear{
+    color:#831617;
+    border-color:#831617;
+    border-radius:15px;
+    border:solid;
+}
+.subirCrear:hover{
+    color:white;
+    border-radius:15px;
+    background-color:#831617;
+    cursor:pointer;
+
+}
+.subirCancelar{
+    color:#831617;
+    border-color:#831617;
+    border-radius:15px;
+    border:solid;
+
+}
+.subirCancelar:hover{
+    color:white;
+    border-radius:15px;
+    background-color:#831617;
+    cursor:pointer;
+}

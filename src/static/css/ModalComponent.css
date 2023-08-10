@@ -1,0 +1,112 @@
+  .custom-modal {
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    position: fixed;
+    top: 20%; /* Ajusta la distancia desde la parte superior de la pantalla */
+    left: 50%;
+    transform: translateX(-50%);
+    overflow-y: auto; /* Añade desplazamiento vertical si el contenido es largo */
+    width: 30%; 
+    opacity: 1;
+    transition: opacity 0.3s;
+  }
+  
+  .custom-modal.show {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+  .custom-modal.hide {
+    opacity: 0;
+    transform: translateY(-50px);
+    pointer-events: none; /* Evita interacciones con el modal oculto */
+  }
+
+  .custom-modal .modal-header {
+    display: flex;
+    padding: 2.5%;
+    flex-direction: column;
+    justify-content: center; /* Centra verticalmente */
+    align-items: center; /* Centra horizontalmente */
+    background-color: #a73535;
+    color: #fff;
+    border-radius: 10px 10px 0 0;
+    font-size: 30px;
+  }
+  
+  .custom-modal .modal-body {
+    display: flex;
+    padding: 2.5%;
+    justify-content: center; /* Centra verticalmente */
+    align-items: center; /* Centra horizontalmente */
+  }
+  .custom-modal .modal-footer {
+    padding: 2.5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .forminput{
+    margin: 5px 5px 5px 5px;
+    padding: 1px 5px 1px 5px;
+    border-radius: 5px;
+  }
+
+  .modal-footer-cancel,
+  .modal-footer-submit,
+  .modal-footer-register {
+    padding: 5px 10px 5px 10px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: auto;    
+    color: #fff;
+    font-size: 14px;
+    transition: background-color 0.2s ease;
+  }
+
+  .modal-footer-cancel {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    background-color: red;
+  }
+
+  .modal-footer-cancel:hover {
+    background-color: rgb(250, 59, 53);
+  }
+
+  .modal-footer-submit {
+    margin-left: auto;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    background-color: green;
+  }
+
+  .modal-footer-submit:hover {
+    background-color: rgb(44, 248, 54);
+  }
+
+  .modal-footer-register {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    background-color: blue;
+  }
+
+  .modal-footer-register:hover {
+    background-color: rgb(7, 105, 216);
+  }
+
+  .modalregister {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+
+  .custom-backdrop {
+    background-color: rgba(0, 0, 0, 0.3); /* Cambia el valor de opacidad aquí */
+  }
+
